@@ -1,44 +1,4 @@
 
-
-
-from datetime import datetime
-
-print(datetime.now())
-
-birthday = datetime(1998, 3, 19, 4, 25, 12)
-
-print(birthday)
-
-print(birthday.year)
-
-print(birthday.weekday())
-
-
-
-print(datetime(2018, 1, 1) - datetime(2017,1,1,))
-
-print(datetime.now()- birthday)
-
-parsed_date = datetime.strptime('Jan 15, 2018', '%b %d, %Y')
-
-print(parsed_date)
-
-date_string = datetime.strftime(datetime.now(), '%b %d, %Y')
-
-print()
-
-print(date_string)
-
-#https://www.youtube.com/watch?v=tOD6g7rF7NA
-#essentially youre given an arbitrarily long str of pi integers, a list of strings of digits. 
-#Some of the strings can be found in the str of pi integers, enough of the strings of digits in the list will be able to be composed to create the string of pi digits you were given
-#You need to use those two inputs to output a string of the pi integers you were initially given. 
-#However you have to compose it with the strings from the list and have spaces in between the strings from the list that you used
-#You also need to output the string with the fewest spaces possible 
-#If you can make the initial string of pi integers multiple ways using the strings in the list, you have to give the one using the fewest strings from the list
-
-
-
 pi_input = '3141592653589793238462643383279'
 fav_nums = ['314', '49', '9001', '15926535897', '14', '9323', '8462643383279', '4', '793']
 match_string = ''
